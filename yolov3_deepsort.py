@@ -135,7 +135,7 @@ def parse_args():
     parser.add_argument("VIDEO_PATH", type=str)
     parser.add_argument("--config_detection", type=str, default="./configs/yolov3.yaml")
     parser.add_argument("--config_deepsort", type=str, default="./configs/deep_sort.yaml")
-    parser.add_argument("--ignore_display", dest="display", action="store_false", default=True)
+    parser.add_argument("--ignore_display", dest="ignore_display", action="store_false", default=True)
     #parser.add_argument("--display", action="store_true")
     parser.add_argument("--frame_interval", type=int, default=1)
     parser.add_argument("--display_width", type=int, default=800)
